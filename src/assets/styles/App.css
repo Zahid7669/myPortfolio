@@ -1,0 +1,57 @@
+/* Set global styles for the entire app */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  .header a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+  }
+  
+  .header a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Style the main content */
+  .main-content {
+    padding: 1rem;
+  }
+  
+  .main-content h2 {
+    margin-top: 0;
+  }
+  
+  /* Style the footer */
+  .footer {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
